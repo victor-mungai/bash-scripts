@@ -1,1 +1,1 @@
-This are my bash script files
+These are my bash script files
