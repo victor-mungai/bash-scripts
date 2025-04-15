@@ -1,0 +1,6 @@
+#!/bin/bash
+
+scp useradd_script.sh vagrant@web02:/tmp
+echo "Sent script to web02"
+ssh vagrant@web02 /tmp/useradd_script.sh
+echo "users added"
